@@ -8,7 +8,7 @@ const fr = {
        "apply": "Appliquer",
        "save": "sauvegarder",
        "select": "Sélectionner",
-       "connect": "Relier",
+       "connect": "Connecter",
        "disconnect": "Déconnecter",
        "yes": "Oui",
        "no": "Non",
@@ -27,14 +27,14 @@ const fr = {
        "exposure": "Exposition",
        "binning": "Binning",
        "action": "Action",
-       "scope_type": "Type de portée",
+       "scope_type": "Type de Télescope",
        "solver_type": "Type de solveur",
        "type": "Type",
        "gain": "Gain",
        "offset": "Décalage",
        "format": "Format",
        "iso": "ISO",
-       "count": "Compter",
+       "count": "Nombre",
        "delay": "Retard",
        "status": "Statut",
        "target": "Cible",
@@ -42,7 +42,7 @@ const fr = {
        "sep_profile": "Profil SEP",
        "direction": "Direction",
        "rotation": "Rotation",
-       "automatic": "Automatic",
+       "automatic": "Automatique",
        "manual": "Manuel",
        "azimuth": "Azimut",
        "altitude": "Altitude",
@@ -77,7 +77,7 @@ const fr = {
        "enable": "Activer",
        "disable": "Désactiver",
        "selectTime": "Select Time",
-       "set": "Ensemble",
+       "set": "Définir",
 
        // Confirm Delete Alert
        "alert_confirm_delete_title": "Confirmer Suppression",
@@ -159,8 +159,8 @@ const fr = {
        "establishing_connection": "Établissement de la connexion",
        "cameras": "Obtenir des caméras",
        "mounts": "Obtenir des montures",
-       "scopes": "Obtenir des portées",
-       "filter_wheels": "Obtenir des roues de filtre",
+       "scopes": "Obtenir des Télescopes",
+       "filter_wheels": "Obtenir des roues à filtre",
        "registering": "Enregistrement...",
        "registered": "inscrit",
        "authenticating": "Authentification...",
@@ -186,7 +186,7 @@ const fr = {
        "Idle": "Tourner au ralenti",
        "Aborted": "avorté",
        "Calibration error": "Erreur d'étalonnage",
-       "Capturing": "Capturer",
+       "Capturing": "Capture",
        "In Progress": "En cours",
        "Setting Temperature": "Réglage de la température",
        "Slewing": "Pivotement",
@@ -210,10 +210,10 @@ const fr = {
        "old_stellarmate_heading": "Mise à jour requise!",
        "old_stellarmate_description": "Vous semblez utiliser une ancienne version de StellarMate OS. Vous devez passer à la version la plus récente de StellarMate pour continuer à utiliser cette application.",
        "primary": "Primaire",
-       "guide": "Guider",
-       "scope": "Portée",
-       "btn_rescan": "RESCAN",
-       "btn_port_select": "Port Selector",
+       "guide": "Guide",
+       "scope": "Télescope",
+       "btn_rescan": "RESCANNER",
+       "btn_port_select": "Port Selection",
        "btn_sync_gps": "Synchroniser le GPS",
        "btn_dslr_setup": "Configuration DSLR",
        "btn_clear_driver_config": "Effacer la configuration du pilote.",
@@ -253,7 +253,7 @@ const fr = {
           "heading": "Profils d'équipement"
        },
        "port_selector": {
-          "port_selector": "Port Selector",
+          "port_selector": "Port Selection",
           "connect_all": "Connect All"
        },
        "manually_add_device": {
@@ -338,9 +338,9 @@ const fr = {
        "angular_offset": "Angular Offset",
        no_objects_in_list: "No Objects found, please adjust or reset the filters.",
        "go_and_solve": "Go & Solve",
-       "fov_profile": "FOV Profile",
-       "fov_width": "FOV Width",
-       "fov_height": "FOV Height"
+       "fov_profile": "FOV Profil",
+       "fov_width": "FOV Largeur",
+       "fov_height": "FOV Hauteur"
     },
     "ekos": {
        "heading": "Ekos",
@@ -355,7 +355,7 @@ const fr = {
           "auto_closes_in": "Fermeture automatique dans"
        },
        "controls_bar": {
-          "mount_speed": "Vitesse de montage",
+          "mount_speed": "Vitesse de La monture",
           "guide": "Guide",
           "centering": "Centrage",
           "find": "Trouver",
@@ -375,11 +375,11 @@ const fr = {
           "load": "Charger et faire pivoter",
           "polar": "Alignement Polaire",
           "stop": "Arrêter",
-          "scope": "Portée",
+          "scope": "Télescope",
           "action": "Action",
           "accuracy": "Précision",
           "settle": "Régler",
-          "dark": "Sombre",
+          "dark": "Dark",
           "arcsec": "arcsec",
           "ms": "SP",
           "xAxis": "Itérations",
@@ -419,7 +419,7 @@ const fr = {
           "lock_filter": "Verrouiller le filtre"
        },
        "targets_filters": {
-          "object_type": "Object Type",
+          "object_type": "Type Objet",
           "alt": "Alt"
        },
        "capture_auto_calibration": {
@@ -433,7 +433,7 @@ const fr = {
           "alt": "Alt",
           "adu": "ADU",
           "tolerance": "Tolérance",
-          "parkMount": "Parc Mount",
+          "parkMount": "Parc Mounture",
           "parkDome": "Park Dome",
           "manual": "Manuel"
        },
@@ -466,11 +466,11 @@ const fr = {
           "ota_offset": "Décalage OTA (m)"
        },
        "collapse_focus": {
-          "heading": "Concentrer",
+          "heading": "Focus",
           "hfr": "HFR",
           "hfr_plot": "Tracé HFR",
-          "focus_in": "Dans",
-          "focus_out": "En dehors",
+          "focus_in": "Intérieur",
+          "focus_out": "Extérieur",
           "steps": "Pas",
           "start": "Début",
           "autofocus": "Mise au point automatique",
@@ -503,7 +503,7 @@ const fr = {
           },
           "mechanics": {
              "title": "Mécanique",
-             "initialStepSize": "Taille initiale de pas",
+             "initialStepSize": "Taille initiale du pas",
              "maxTravel": "Trajet maximum",
              "maxStepSize": "Taille maximale du pas",
              "backlash": "Backlash",
@@ -555,7 +555,7 @@ const fr = {
        "collapse_polar": {
           "heading": "Alignement polaire",
           "mount_direction": "Direction du montage",
-          "mount_speed": "Mount Speed",
+          "mount_speed": "Vitesse Monture",
           "manual_slew": "Manual Slew",
           "west": "Ouest",
           "east": "est",
@@ -568,9 +568,9 @@ const fr = {
           "al_error": "AL error: "
        },
        "collapse_sequence": {
-          "progress": "Le progrès",
+          "progress": "Progression",
           "sequence": "Séquence",
-          "overall_progress": "Les progrès d'ensemble",
+          "overall_progress": "Progression Totale",
           "sequences": "Séquences",
           "no_sequences": "Pas de séquences. Vous pouvez les ajouter en appuyant sur Ajouter à la séquence."
        },
@@ -578,12 +578,12 @@ const fr = {
           "heading": "Monture",
           "tracking": "Poursuite",
           "parking": "Parking",
-          "meridian_flip": "Meridian Flip",
+          "meridian_flip": "Retournement Meridien",
           "flip_if_ha": "Retourner si HA>",
           "flip_if_ha_unit": "°",
           "pierside": "Côté de la jetée",
           "auto_park": "Parc automatique",
-          "auto_park_everyday": "Tous les joirs day",
+          "auto_park_everyday": "Tous les jours",
           "park_at": "Parquer à",
           "limit_settings": "Limiter les paramètres",
           "reset_options": "Réinitialiser les options",
