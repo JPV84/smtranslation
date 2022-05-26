@@ -62,10 +62,10 @@ const fr = {
        "go": "ALLER",
        "add": "AJOUTER",
        "edit": "ÉDITER",
-       "refresh": "RAFRAÎCHIR",
-       "reset": "RÉINITIALISER",
-       "reset_all": "Reset All",
-       "start": "DÉBUT",
+       "refresh": "Rafraichir",
+       "reset": "Reinitialiser",
+       "reset_all": "Reinitialiser tout",
+       "start": "Début",
        "stop": "Arrêtez",
        "stopping": "Arrêt",
        "clear": "CLAIR",
@@ -76,11 +76,11 @@ const fr = {
        "closed": "Fermé",
        "enable": "Activer",
        "disable": "Désactiver",
-       "selectTime": "Select Time",
+       "selectTime": "Selectioner Temps",
        "set": "Ensemble",
 
        // Confirm Delete Alert
-       "alert_confirm_delete_title": "Confirm Delete",
+       "alert_confirm_delete_title": "Confirmer Suppression",
        "alert_delete_profile_body": "Are you sure you want to delete the selected profile?",
        "alert_delete_scope_body": "Are you sure you want to delete the selected scope?",
 
@@ -93,28 +93,28 @@ const fr = {
        "kstars_down_title": "KStars est en panne",
        "kstars_down_body": "KStars n'est pas en cours d'exécution, essayez de redémarrer StellarMate ou contactez le support StellarMate.",
        "reset_default": "Reset to default",
-       "external_storage": "External Storage"
+       "external_storage": "Stockage Externe"
     },
     "darkLibrary":{
-      "title": "Dark Library",
+      "title": "Répertoire Dark",
       "darks": "Darks",
       "defects": "Defects",
       "prefer": "Prefer",
-      "create_darks_title": "Create Darks",
+      "create_darks_title": "Creation Darks",
       "create_defects_title": "Create Defect Map",
       "view_masters_title": "View Masters",
       "progress": "Progress",
 
       "create_darks":{
-          "exposure_range": "Exp. Range",
+          "exposure_range": "Ecart Exp",
           "to": "To",
-          "temp_range": "T. Range",
+          "temp_range": "Ecart T°",
           "binning": "Binning",
           "binningOne": "1x1",
           "binningTwo": "2x2",
           "binningFour": "4x4",
           "total_images": "Total",
-          "count": "Count"
+          "count": "Nombre"
       },
 
       "create_defect_map":{
@@ -210,10 +210,10 @@ const fr = {
        "old_stellarmate_heading": "Mise à jour requise!",
        "old_stellarmate_description": "Vous semblez utiliser une ancienne version de StellarMate OS. Vous devez passer à la version la plus récente de StellarMate pour continuer à utiliser cette application.",
        "primary": "Primaire",
-       "guide": "Guider",
-       "scope": "Portée",
-       "btn_rescan": "RESCAN",
-       "btn_port_select": "Port Selector",
+       "guide": "Guide",
+       "scope": "Télescope",
+       "btn_rescan": "ReScanner",
+       "btn_port_select": "Sélection Ports",
        "btn_sync_gps": "Synchroniser le GPS",
        "btn_dslr_setup": "Configuration DSLR",
        "btn_clear_driver_config": "Effacer la configuration du pilote.",
@@ -254,7 +254,7 @@ const fr = {
        },
        "port_selector": {
           "port_selector": "Port Selector",
-          "connect_all": "Connect All"
+          "connect_all": "Connecter Tout"
        },
        "manually_add_device": {
           "heading": "Ajouter manuellement un appareil",
@@ -265,7 +265,7 @@ const fr = {
        "device_scanner": {
           "no_device_before_scan": "Aucun appareil détecté. Exécutez le scanner.",
           "no_device_after_scan": "Analyse terminée. Aucun périphérique trouvé.",
-          "progress": "Le progrès",
+          "progress": "Progression",
           "auto_scanned": "Analyse automatique",
           "manually_added": "Ajouté manuellement",
           "add_a_device": "Ajouter un périphérique",
@@ -289,8 +289,8 @@ const fr = {
           "aux4": "Aux4"
        },
        "add_scope": {
-          "add_scope": "Ajouter une portée",
-          "edit_scope": "Modifier l'étendue",
+          "add_scope": "Ajouter un Télescope",
+          "edit_scope": "Modifier le Télescope",
           "vendor": "vendeur",
           "model": "Modèle",
           "aperture": "Ouverture (mm)",
@@ -313,17 +313,17 @@ const fr = {
        }
     },
     "targets": {
-       "now": "Now",
-       "night": "Night",
+       "now": "Maintenant",
+       "night": "Nuit",
        "rise": "Rise",
        "set": "Set",
-       "moon": "Moon",
-       "sun": "Sun",
-       "search": "Search",
+       "moon": "Lune",
+       "sun": "Soleil",
+       "search": "Chercher",
        "phases": {
-          "new_moon": "New Moon",
-          "full_moon": "Full Moon",
-          "first_quarter": "First quarter",
+          "new_moon": "Nouvelle Lune",
+          "full_moon": "Pleine Lune",
+          "first_quarter": "Premier Quartier",
           "third_quarter": "Third quarter",
           "waxing_crescent": "Waxing crescent",
           "waxing_gibbous": "Waxing gibbous",
@@ -344,7 +344,7 @@ const fr = {
     },
     "ekos": {
        "heading": "Ekos",
-       "tgl_mount": "MONTER",
+       "tgl_mount": "Monture",
        "tgl_solution_bar": "BARRE DE SOLUTION",
        "tgl_sequence": "SÉQUENCE",
        "tgl_properties": "PROPRIÉTÉS",
@@ -355,7 +355,7 @@ const fr = {
           "auto_closes_in": "Fermeture automatique dans"
        },
        "controls_bar": {
-          "mount_speed": "Vitesse de montage",
+          "mount_speed": "Vitesse Monture",
           "guide": "Guide",
           "centering": "Centrage",
           "find": "Trouver",
@@ -433,12 +433,12 @@ const fr = {
           "alt": "Alt",
           "adu": "ADU",
           "tolerance": "Tolérance",
-          "parkMount": "Parc Mount",
+          "parkMount": "Parc Monture",
           "parkDome": "Park Dome",
           "manual": "Manuel"
        },
        "capture_file": {
-          "filename": "File Name",
+          "filename": "Nom du Fichier",
           "heading": "Paramètres de fichier",
           "prefix": "Préfixe",
           "script": "Scénario",
@@ -466,26 +466,26 @@ const fr = {
           "ota_offset": "Décalage OTA (m)"
        },
        "collapse_focus": {
-          "heading": "Concentrer",
+          "heading": "Centrer",
           "hfr": "HFR",
           "hfr_plot": "Tracé HFR",
-          "focus_in": "Dans",
-          "focus_out": "En dehors",
+          "focus_in": "MAP Int",
+          "focus_out": "MAP Ext",
           "steps": "Pas",
           "start": "Début",
-          "autofocus": "Mise au point automatique",
+          "autofocus": "Mise au point auto",
           "xAxis": "Pas",
           "yAxis": "HFR",
           "settings": {
              "title": "Réglages",
              "suspendGuiding": "Suspendre le guidage",
-             "autoSelectStar": "Suspendre le guidage",
-             "subframe": "Sous-châssis",
-             "fullfield": "Champ complet",
-             "dark": "Cadre sombre",
+             "autoSelectStar": "Etoile Sélectionnée Automatiquement",
+             "subframe": "Sous-Trame",
+             "fullfield": "Plein Champt",
+             "dark": "Dark",
              "box": "Boîte",
-             "annulus": "Régler",
-             "settle": "Settle"
+             "annulus": "Annulus",
+             "settle": "Régler"
           },
           "process": {
              "title": "Processus",
@@ -496,19 +496,19 @@ const fr = {
              "tolerance": "Tolérance",
              "effect": "Effet",
              "averageOver": "Moyenne sur",
-             "frames": "cadres",
+             "frames": "Frames ?",
              "kernelSize": "Taille du noyau",
              "numOfRows": "Nombre. de rangées",
              "sigma": "Sigma"
           },
           "mechanics": {
              "title": "Mécanique",
-             "initialStepSize": "Taille de l'étape initiale",
-             "maxTravel": "Voyage maximum",
-             "maxStepSize": "Taille maximale de l'étape",
-             "backlash": "Contrecoup",
+             "initialStepSize": "Taille Initiale pas",
+             "maxTravel": "Trajet max",
+             "maxStepSize": "Taille maximale du pas",
+             "backlash": "Backlash",
              "settle": "Régler",
-             "outStepMultiple": "Out Step Multiple"
+             "outStepMultiple": "Délai déplacement dépassé"
           }
        },
        "collapse_guide": {
@@ -518,7 +518,7 @@ const fr = {
           "total_rms_plot": "RMS",
           "scope_primary": "Primaire",
           "scope_guide": "Guide",
-          "scope": "Portée",
+          "scope": "Télescope",
           "guidingRate": "Taux de guidage",
           "guider": "Guider",
           "via": "Via",
@@ -555,7 +555,7 @@ const fr = {
        "collapse_polar": {
           "heading": "Alignement polaire",
           "mount_direction": "Direction du montage",
-          "mount_speed": "Mount Speed",
+          "mount_speed": "Vitesse Monture",
           "manual_slew": "Manual Slew",
           "west": "Ouest",
           "east": "est",
@@ -563,28 +563,28 @@ const fr = {
           "refresh": "Rafraîchir",
           "fov_error": "Désactivé: le champ de vision doit être de 30 arcmins ou plus.",
           "polar_error": "Erreur polaire :",
-          "error": "Error: ",
-          "az_error": "AZ error: ",
-          "al_error": "AL error: "
+          "error": "Erreur: ",
+          "az_error": "AZ erreur: ",
+          "al_error": "AL erreur: "
        },
        "collapse_sequence": {
-          "progress": "Le progrès",
+          "progress": "Progression",
           "sequence": "Séquence",
-          "overall_progress": "Les progrès d'ensemble",
+          "overall_progress": "Progession totale",
           "sequences": "Séquences",
           "no_sequences": "Pas de séquences. Vous pouvez les ajouter en appuyant sur Ajouter à la séquence."
        },
        "collapse_mount": {
-          "heading": "Monter",
+          "heading": "Monture",
           "tracking": "Poursuite",
           "parking": "Parking",
-          "meridian_flip": "Meridian Flip",
+          "meridian_flip": "MRetournement Méridien",
           "flip_if_ha": "Retourner si HA>",
           "flip_if_ha_unit": "°",
           "pierside": "Côté de la jetée",
-          "auto_park": "Parc automobile",
-          "auto_park_everyday": "Every day",
-          "park_at": "Park at",
+          "auto_park": "Parquer Automatiquement",
+          "auto_park_everyday": "Tous les jours ",
+          "park_at": "Parquer à",
           "limit_settings": "Limiter les paramètres",
           "reset_options": "Réinitialiser les options",
           "min_alt": "Alt min",
@@ -597,7 +597,7 @@ const fr = {
           "west": "W",
           "east_long": "Est (pointant vers l'ouest)",
           "west_long": "Ouest (pointant vers l'est)",
-          "btn_set_auto_park_timer": "Définir l'heure de stationnement automatique"
+          "btn_set_auto_park_timer": "Définir l'heure de parquage automatique"
        },
        "modal_add_to_seq": {
           "heading": "Ajouter à la séquence",
@@ -621,7 +621,7 @@ const fr = {
        },
        "camera_status_bar": {
           "camera": "Camera",
-          "filter": "Filter",
+          "filter": "Filtre",
           "temperature": "Temperature",
           "resolution": "Resolution",
           "bin": "Bin",
@@ -659,7 +659,7 @@ const fr = {
          "plate_solve": "Plate Solve",
          "background": "Background",
          "saturation": "Saturation",
-         "contrast": "Contrast",
+         "contrast": "Contraste",
          "sigma_clipping": "Sigma Clipping",
          "noImages": "No Live Stacking Images found"
       }
@@ -672,13 +672,13 @@ const fr = {
        "cpu": "CPU",
        "ram": "RAM",
        "storage": "ESPACE DE RANGEMENT",
-       "stable": "Stable",
-       "beta": "Bêta",
+       "stable": "STABLE",
+       "beta": "BETA",
        "wifi_network": "IP du réseau Wifi",
        "ethernet_network": "IP Ethernet",
        "model": "Modèle",
        "version": "Version",
-       "hostname": "Nom d'hôte",
+       "hostname": "Nom de l'hôte",
        "time": "Temps",
        "release_type": "Type de version",
        "updates": "Mises à jour",
@@ -749,7 +749,7 @@ const fr = {
           "mode": "Mode"
        },
        "change_hostname_modal": {
-          "heading": "Changer le nom d'hôte",
+          "heading": "Changer le nom de l'hôte",
           "new_hostname": "Nouveau nom d'hôte"
        },
        "change_wifi_modal": {
