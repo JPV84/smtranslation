@@ -27,7 +27,7 @@ const fr = {
        "exposure": "Exposition",
        "binning": "Binning",
        "action": "Action",
-       "scope_type": "Type de portée",
+       "scope_type": "Type de Télescope",
        "solver_type": "Type de solveur",
        "type": "Type",
        "gain": "Gain",
@@ -59,17 +59,17 @@ const fr = {
        "no_results": "Aucun résultat",
        "on": "Marche",
        "off": "Arrêt",
-       "go": "ALLER",
-       "add": "AJOUTER",
-       "edit": "ÉDITER",
-       "refresh": "RAFRAÎCHIR",
+       "go": "Aller",
+       "add": "AJjouter",
+       "edit": "Éditer",
+       "refresh": "Rafraichir",
        "reset": "RÉINITIALISER",
        "reset_all": "Tout réinitialiser",
        "start": "DÉBUT",
        "stop": "Arrêtez",
        "stopping": "Arrêt",
        "clear": "Effacer",
-       "solve": "RÉSOUDRE",
+       "solve": "Résoudre",
        "parked": "Parquée",
        "unparked": "Dé Parquée",
        "open": "Ouvrir",
@@ -92,7 +92,7 @@ const fr = {
        "ekoslive_down_body": "EkosLive n'est pas en cours d'exécution, essayez de redémarrer StellarMate ou contactez l'assistance StellarMate.",
        "kstars_down_title": "KStars est en panne",
        "kstars_down_body": "KStars n'est pas en cours d'exécution, essayez de redémarrer StellarMate ou contactez le support StellarMate.",
-       "reset_default": "Reset to default",
+       "reset_default": "Remise à zéro",
        "external_storage": "Stokage Externe"
     },
     "darkLibrary":{
@@ -253,7 +253,7 @@ const fr = {
           "heading": "Profils d'équipement"
        },
        "port_selector": {
-          "port_selector": "Selition de port",
+          "port_selector": "Selection des ports",
           "connect_all": "Tout connecter"
        },
        "manually_add_device": {
@@ -330,7 +330,7 @@ const fr = {
           "waning_crescent": "Dernier croissant",
           "waning_gibbous": "Gibbeuse décroissante"
        },
-       "lists": "Lists",
+       "lists": "Liste",
        "framing_assistant": "Framing Assistant",
        "target_rotation": "Target Rotation",
        "current_rotation": "Current Rotation",
@@ -466,7 +466,7 @@ const fr = {
           "ota_offset": "Décalage OTA (m)"
        },
        "collapse_focus": {
-          "heading": "Concentrer",
+          "heading": "Focus",
           "hfr": "HFR",
           "hfr_plot": "Tracé HFR",
           "focus_in": "Dans",
@@ -512,13 +512,13 @@ const fr = {
           }
        },
        "collapse_guide": {
-          "heading": "Tube",
+          "heading": "Guide",
           "ra_rms_plot": "RA",
           "de_rms_plot": "DE",
           "total_rms_plot": "RMS",
           "scope_primary": "Primaire",
           "scope_guide": "Guide",
-          "scope": "Portée",
+          "scope": "Télescope",
           "guidingRate": "Taux de guidage",
           "guider": "Guideur",
           "via": "Via",
@@ -526,8 +526,8 @@ const fr = {
           "effects": "Effets",
           "dither": "Décalage",
           "pixels": "pixels",
-          "frequency": "Frequence",
-          "every": "every",
+          "frequency": "Fréquence",
+          "every": "Tout",
           "frames": "frames",
           "gpg": "GPG",
           "directions": "Directions",
@@ -554,9 +554,9 @@ const fr = {
        },
        "collapse_polar": {
           "heading": "Alignement polaire",
-          "mount_direction": "Direction du montage",
-          "mount_speed": "Mount Speed",
-          "manual_slew": "Manual Slew",
+          "mount_direction": "Direction déplacement",
+          "mount_speed": "Vitesse Déplacement",
+          "manual_slew": "Déplacement Manuel",
           "west": "Ouest",
           "east": "est",
           "mount_rotation": "Rotation du support",
@@ -570,7 +570,7 @@ const fr = {
        "collapse_sequence": {
           "progress": "Progression",
           "sequence": "Séquence",
-          "overall_progress": "Les progrès d'ensemble",
+          "overall_progress": "Progresssion Totale",
           "sequences": "Séquences",
           "no_sequences": "Pas de séquences. Vous pouvez les ajouter en appuyant sur Ajouter à la séquence."
        },
@@ -578,12 +578,12 @@ const fr = {
           "heading": "Monture",
           "tracking": "Poursuite",
           "parking": "Parking",
-          "meridian_flip": "Meridian Flip",
+          "meridian_flip": "Retournement Meridian",
           "flip_if_ha": "Retourner si HA>",
           "flip_if_ha_unit": "°",
           "pierside": "Côté de la jetée",
-          "auto_park": "Parc automatique",
-          "auto_park_everyday": "Tous les joirs day",
+          "auto_park": "Parcage automatique",
+          "auto_park_everyday": "Tous les jours",
           "park_at": "Parquer à",
           "limit_settings": "Limiter les paramètres",
           "reset_options": "Réinitialiser les options",
@@ -604,7 +604,7 @@ const fr = {
           "prefix": "Préfixe"
        },
        "modal_goto_sync": {
-          "heading": "Aller ou synchroniser",
+          "heading": "Goto ou synchroniser",
           "category": "Catégorie",
           "j2000": "J2000",
           "btn_sync": "Synchroniser",
@@ -652,7 +652,7 @@ const fr = {
           "mean": "Mean",
           "median": "Median",
           "bit_depth": "Bit Depth",
-          "non_linear_histogram": "Histogramme Non-Linear"
+          "non_linear_histogram": "Histogramme Non-Linéaire"
        },
        "livestacking": {
          "auto_dark": "Auto Dark",
@@ -661,7 +661,7 @@ const fr = {
          "saturation": "Saturation",
          "contrast": "Contraste",
          "sigma_clipping": "Sigma Clipping",
-         "noImages": "No Live Stacking Images found"
+         "noImages": "Pas d'mages trouvées pour live Stacking"
       }
     },
     "status": {
@@ -742,7 +742,7 @@ const fr = {
        "alert_clear_all_driver_config_body": "Êtes-vous sûr de vouloir supprimer toute la configuration du pilote?",
        "alert_update_complete_title": "SM OS Update",
        "alert_update_complete_body": "Update complete, please restart StellarMate.",
-       "alert_network_error_title": "Network error",
+       "alert_network_error_title": "Erreur Réseau",
        "alert_network_error_body": "Failed to query network information",
        "change_resolution_modal": {
           "heading": "Changer la résolution",
@@ -811,9 +811,9 @@ const fr = {
           "field": "Champ",
           "condition": "État",
           "value": "Valeur",
-          "btn_add_filter": "AJOUTER UN FILTRE",
+          "btn_add_filter": "Ajouter un Filtre",
           "airmass": "Masse d'air",
-          "mount": "Monter",
+          "mount": "Monture",
           "object": "Objet",
           "contains": "Contient"
        },
