@@ -466,7 +466,7 @@ const fr = {
           "ota_offset": "Décalage OTA (m)"
        },
        "collapse_focus": {
-          "heading": "Concentrer",
+          "heading": "Mise au Point",
           "hfr": "HFR",
           "hfr_plot": "Tracé HFR",
           "focus_in": "Dans",
