@@ -27,7 +27,7 @@ const fr = {
        "exposure": "Exposition",
        "binning": "Binning",
        "action": "Action",
-       "scope_type": "Type de portée",
+       "scope_type": "Type de Télescope",
        "solver_type": "Type de solveur",
        "type": "Type",
        "gain": "Gain",
@@ -59,9 +59,9 @@ const fr = {
        "no_results": "Aucun résultat",
        "on": "Marche",
        "off": "Arrêt",
-       "go": "ALLER",
-       "add": "AJOUTER",
-       "edit": "ÉDITER",
+       "go": "Aller",
+       "add": "Ajouter",
+       "edit": "Éditer",
        "refresh": "RAFRAÎCHIR",
        "reset": "RÉINITIALISER",
        "reset_all": "Tout réinitialiser",
@@ -149,17 +149,17 @@ const fr = {
        "email_invalid": "Adresse e-mail invalide",
        "license_required": "Clé de licence requise",
        "serial_required": "Clé de série requise",
-       "new_scope_vendor": "Entre un nom de fournisseur valide",
-       "new_scope_model_invalid": "Entre un modèle valide",
-       "new_scope_aperture_invalid": "Entre une ouverture valide",
-       "new_scope_focal_length_invalid": "Entre une focale valide"
+       "new_scope_vendor": "Entrer un nom de fournisseur valide",
+       "new_scope_model_invalid": "Entrer un modèle valide",
+       "new_scope_aperture_invalid": "Entrer une ouverture valide",
+       "new_scope_focal_length_invalid": "Entrer une focale valide"
     },
     "progress": {
        "please_wait": "S'il vous plaît, attendez ...",
        "establishing_connection": "Établissement de la connexion",
        "cameras": "Obtenir des caméras",
        "mounts": "Obtenir des montures",
-       "scopes": "Obtenir des portées",
+       "scopes": "Obtenir des Télescopes",
        "filter_wheels": "Obtenir des roues de filtre",
        "registering": "Enregistrement...",
        "registered": "inscrit",
@@ -183,7 +183,7 @@ const fr = {
        "qr_scan": "Scannez le code QR de votre appareil "
     },
     "statuses": {
-       "Idle": "Tourner au ralenti",
+       "Idle": "Inactif",
        "Aborted": "Avorté",
        "Calibration error": "Erreur d'étalonnage",
        "Capturing": "Capturer",
@@ -213,7 +213,7 @@ const fr = {
        "guide": "Guider",
        "scope": "Portée",
        "btn_rescan": "RESCAN",
-       "btn_port_select": "Selection de port",
+       "btn_port_select": "Selection des Ports",
        "btn_sync_gps": "Synchroniser le GPS",
        "btn_dslr_setup": "Configuration DSLR",
        "btn_clear_driver_config": "Effacer la configuration du pilote.",
@@ -277,10 +277,10 @@ const fr = {
           "edit_profile": "Editer le profil",
           "mount": "Monture",
           "ccd": "CCD",
-          "guider": "Guider",
-          "focuser": "Focuser",
+          "guider": "Guideur",
+          "focuser": "Focuseur",
           "filter": "Filtre",
-          "ao": "Optique adaptative",
+          "ao": "AO",
           "dome": "Dôme",
           "weather": "Météo",
           "aux1": "Aux1",
@@ -294,7 +294,7 @@ const fr = {
           "vendor": "Fabricant",
           "model": "Modèle",
           "aperture": "Ouverture (mm)",
-          "focal_length": "Distance focale (mm)"
+          "focal_length": "Focale (mm)"
        },
        "auto_detect": {
           "alert_auto_detect_title": "Instructions de détection automatique",
@@ -308,8 +308,8 @@ const fr = {
           "heading": "Configuration DSLR",
           "width": "Largeur",
           "height": "la taille",
-          "pixel_width": "Largeur de pixel",
-          "pixel_height": "Hauteur de pixel"
+          "pixel_width": "Largeur du pixel",
+          "pixel_height": "Hauteur du pixel"
        }
     },
     "targets": {
@@ -333,14 +333,14 @@ const fr = {
        "lists": "Lists",
        "framing_assistant": "Framing Assistant",
        "target_rotation": "Target Rotation",
-       "current_rotation": "Current Rotation",
-       "rotate_capture": "Rotate & Capture",
+       "current_rotation": "Rotation Actuelle",
+       "rotate_capture": "Rotation & Capture",
        "angular_offset": "Angular Offset",
        no_objects_in_list: "Pas d'objets trouvés, ajuster ou reinitialiser les filtres.",
        "go_and_solve": "Go & Solve",
-       "fov_profile": "FOV Profile",
-       "fov_width": "FOV Width",
-       "fov_height": "FOV Height"
+       "fov_profile": "Profil FOV",
+       "fov_width": "FOV Largeur",
+       "fov_height": "FOV Hauteur"
     },
     "ekos": {
        "heading": "Ekos",
@@ -371,11 +371,11 @@ const fr = {
           "solver_backend": "Backend",
           "solver_type": "Type",
           "control": "Contrôle",
-          "solve": "Capturer et résoudre",
-          "load": "Charger et faire pivoter",
+          "solve": "Résoudre",
+          "load": "Charger",
           "polar": "Alignement Polaire",
           "stop": "Arrêter",
-          "scope": "Portée",
+          "scope": "Télescope",
           "action": "Action",
           "accuracy": "Précision",
           "settle": "Régler",
@@ -466,18 +466,18 @@ const fr = {
           "ota_offset": "Décalage OTA (m)"
        },
        "collapse_focus": {
-          "heading": "Concentrer",
+          "heading": "FOCUS",
           "hfr": "HFR",
           "hfr_plot": "Tracé HFR",
-          "focus_in": "Dans",
-          "focus_out": "En dehors",
+          "focus_in": "MAP vers L'intérieur",
+          "focus_out": "MAP vers l'extérieur",
           "steps": "Pas",
           "start": "Début",
           "autofocus": "Mise au point automatique",
           "xAxis": "Pas",
           "yAxis": "HFR",
           "settings": {
-             "title": "Réglages",
+             "title": "REGLAGES",
              "suspendGuiding": "Suspendre le guidage",
              "autoSelectStar": "Etoile selectionnée automatiquement",
              "subframe": "Sous-Trame",
@@ -488,7 +488,7 @@ const fr = {
              "settle": "Ajuster"
           },
           "process": {
-             "title": "Traiter",
+             "title": "TRAITER",
              "detection": "Détection",
              "sep_profile": "Profil SEP",
              "algorithm": "Algorithme",
@@ -502,7 +502,7 @@ const fr = {
              "sigma": "Sigma"
           },
           "mechanics": {
-             "title": "Mécanique",
+             "title": "MECANIQUE",
              "initialStepSize": "Taille initiale de pas",
              "maxTravel": "Trajet maximum",
              "maxStepSize": "Taille maximale du pas",
@@ -512,7 +512,7 @@ const fr = {
           }
        },
        "collapse_guide": {
-          "heading": "Tube",
+          "heading": "Télescope",
           "ra_rms_plot": "RA",
           "de_rms_plot": "DE",
           "total_rms_plot": "RMS",
@@ -554,11 +554,11 @@ const fr = {
        },
        "collapse_polar": {
           "heading": "Alignement polaire",
-          "mount_direction": "Direction du montage",
-          "mount_speed": "Mount Speed",
+          "mount_direction": "Direction Monture",
+          "mount_speed": "Vitesse Monture",
           "manual_slew": "Manual Slew",
           "west": "Ouest",
-          "east": "est",
+          "east": "Est",
           "mount_rotation": "Rotation du support",
           "refresh": "Rafraîchir",
           "fov_error": "Désactivé: le champ de vision doit être de 30 arcmins ou plus.",
@@ -570,20 +570,20 @@ const fr = {
        "collapse_sequence": {
           "progress": "Progression",
           "sequence": "Séquence",
-          "overall_progress": "Les progrès d'ensemble",
+          "overall_progress": "Progression Totale",
           "sequences": "Séquences",
           "no_sequences": "Pas de séquences. Vous pouvez les ajouter en appuyant sur Ajouter à la séquence."
        },
        "collapse_mount": {
-          "heading": "Monture",
+          "heading": "MONTURE",
           "tracking": "Poursuite",
           "parking": "Parking",
-          "meridian_flip": "Meridian Flip",
+          "meridian_flip": "Retournement Meridien",
           "flip_if_ha": "Retourner si HA>",
           "flip_if_ha_unit": "°",
           "pierside": "Côté de la jetée",
-          "auto_park": "Parc automatique",
-          "auto_park_everyday": "Tous les joirs day",
+          "auto_park": "Parking automatique",
+          "auto_park_everyday": "Tous les jours",
           "park_at": "Parquer à",
           "limit_settings": "Limiter les paramètres",
           "reset_options": "Réinitialiser les options",
@@ -592,7 +592,7 @@ const fr = {
           "enable_alt_limits": "Activer les limites Alt",
           "enable_ha_limits": "Activer les limites HA",
           "max_ha": "HA max (heures)",
-          "clear_model": "Modèle clair",
+          "clear_model": "Cleaner Modèle",
           "east": "E",
           "west": "W",
           "east_long": "Est (pointant vers l'ouest)",
@@ -622,8 +622,8 @@ const fr = {
        "camera_status_bar": {
           "camera": "Camera",
           "filter": "Filtre",
-          "temperature": "Temperature",
-          "resolution": "Resolution",
+          "temperature": "Température",
+          "resolution": "Résolution",
           "bin": "Bin",
           "gain": "Gain",
           "iso": "ISO",
@@ -652,7 +652,7 @@ const fr = {
           "mean": "Mean",
           "median": "Median",
           "bit_depth": "Bit Depth",
-          "non_linear_histogram": "Histogramme Non-Linear"
+          "non_linear_histogram": "Histogramme Non-Lineaire"
        },
        "livestacking": {
          "auto_dark": "Auto Dark",
@@ -741,7 +741,7 @@ const fr = {
        "alert_clear_all_driver_config_title": "Effacer toute la configuration du pilote",
        "alert_clear_all_driver_config_body": "Êtes-vous sûr de vouloir supprimer toute la configuration du pilote?",
        "alert_update_complete_title": "SM OS Update",
-       "alert_update_complete_body": "Update complete, please restart StellarMate.",
+       "alert_update_complete_body": "MAF finie, Veuillez reddémarrer StellarMate.",
        "alert_network_error_title": "Network error",
        "alert_network_error_body": "Failed to query network information",
        "change_resolution_modal": {
@@ -749,8 +749,8 @@ const fr = {
           "mode": "Mode"
        },
        "change_hostname_modal": {
-          "heading": "Changer le nom d'hôte",
-          "new_hostname": "Nouveau nom d'hôte"
+          "heading": "Changer le nom de l'hôte",
+          "new_hostname": "Nouveau nom de l'hôte"
        },
        "change_wifi_modal": {
           "heading": "Rejoignez un réseau",
@@ -811,7 +811,7 @@ const fr = {
           "field": "Champ",
           "condition": "État",
           "value": "Valeur",
-          "btn_add_filter": "AJOUTER UN FILTRE",
+          "btn_add_filter": "Ajouter un Filtre",
           "airmass": "Masse d'air",
           "mount": "Monter",
           "object": "Objet",
@@ -825,8 +825,8 @@ const fr = {
           "m1": "1m",
           "y1": "1y",
           "images": "Images",
-          "btn_sort": "TRIER",
-          "btn_delete_all": "SUPPRIMER TOUT",
+          "btn_sort": "Trier",
+          "btn_delete_all": "Supprimer Tout",
           "ascending": "A-Z",
           "descending": "Z-A",
           "alert_no_images_title": "Aucune image",
