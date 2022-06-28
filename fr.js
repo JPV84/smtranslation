@@ -27,7 +27,7 @@ const fr = {
        "exposure": "Exposition",
        "binning": "Binning",
        "action": "Action",
-       "scope_type": "Type de portée",
+       "scope_type": "Type de Tube",
        "solver_type": "Type de solveur",
        "type": "Type",
        "gain": "Gain",
@@ -44,7 +44,7 @@ const fr = {
        "rotation": "Rotation",
        "automatic": "Automatique",
        "manual": "Manuel",
-       "progress": "Progress",
+       "progress": "Progression",
 
        "azimuth": "Azimut",
        "altitude": "Altitude",
@@ -61,17 +61,17 @@ const fr = {
        "no_results": "Aucun résultat",
        "on": "Marche",
        "off": "Arrêt",
-       "go": "ALLER",
-       "add": "AJOUTER",
-       "edit": "ÉDITER",
-       "refresh": "RAFRAÎCHIR",
-       "reset": "RÉINITIALISER",
+       "go": "Aller",
+       "add": "Ajouter",
+       "edit": "Éditer",
+       "refresh": "Rafraichir",
+       "reset": "Réininialiser",
        "reset_all": "Tout réinitialiser",
-       "start": "DÉBUT",
+       "start": "Début",
        "stop": "Arrêtez",
        "stopping": "Arrêt",
        "clear": "Effacer",
-       "solve": "RÉSOUDRE",
+       "solve": "Résoudre",
        "parked": "Parquée",
        "unparked": "Dé Parquée",
        "open": "Ouvrir",
@@ -110,7 +110,7 @@ const fr = {
       "progress": "Progression",
 
       "create_darks":{
-          "exposure_range": "Plage d' expo.",
+          "exposure_range": "Plage d'expo.",
           "to": "à",
           "temp_range": "Plage de temp.",
           "binning": "Binning",
@@ -199,7 +199,7 @@ const fr = {
        "User Input": "Entrée utilisateur",
        "Complete": "Compléter",
        "Suspended": "Suspendu",
-       "Parked": "Garé"
+       "Parked": "Garée"
     },
     "connect": {
        "register_welcome": "Veuillez vous connecter à votre compte stellarmate.com pour synchroniser les appareils.",
@@ -276,7 +276,7 @@ const fr = {
           "mount": "Monture",
           "ccd": "CCD",
           "guider": "Guider",
-          "ao": "Optique adaptative",
+          "ao": "AO Optique adaptative",
           "weather": "Météo",
           "aux1": "Aux1",
           "aux2": "Aux2",
@@ -288,7 +288,7 @@ const fr = {
           "edit_scope": "Modifier le télescope",
           "vendor": "Fabricant",
           "aperture": "Ouverture (mm)",
-          "focal_length": "Distance focale (mm)"
+          "focal_length": "Focale (mm)"
        },
        "auto_detect": {
           "alert_auto_detect_title": "Instructions de détection automatique",
@@ -332,13 +332,13 @@ const fr = {
        "no_objects_in_list": "Pas d'objets trouvés, ajuster ou reinitialiser les filtres.",
        "go_and_solve": "Go & Solve",
        "fov_profile": "FOV Profile",
-       "fov_width": "FOV Width",
-       "fov_height": "FOV Height"
+       "fov_width": "FOV Largeur",
+       "fov_height": "FOV Hauteur"
     },
     "ekos": {
-       "heading": "Ekos",
+       "heading": "EKOS",
        "tgl_mount": "MONTURE",
-       "tgl_solution_bar": "BARRE DE SOLUTION",
+       "tgl_solution_bar": "Barre de Solution",
        "tgl_sequence": "SÉQUENCE",
        "tgl_properties": "PROPRIÉTÉS",
        "alert_ekos_offline_title": "Ekos est hors ligne",
